@@ -1,6 +1,6 @@
 # 👟 Shoe Palace - React E-Commerce Website
 
-Welcome to **Shoe Palace**, a stylish and responsive e-commerce website built with **React**. This project showcases a curated list of trendy footwear with features like filtering, searching, and product descriptions. Ideal for learning or adapting into a real-world online store.
+Welcome to **Shoe Base**, a stylish and responsive e-commerce website built with **React**. This project showcases a curated list of trendy footwear with features like filtering, searching, and product descriptions. Ideal for learning or adapting into a real-world online store.
 
 ---
 
