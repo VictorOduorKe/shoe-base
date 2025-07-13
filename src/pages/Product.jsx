@@ -55,9 +55,9 @@ const ProductItem = ({ product }) => {
 };
 
 const Product = () => {
-  const [products, setProducts] = useState(sampleProducts);
+  const [products] = useState(sampleProducts);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
@@ -109,7 +109,7 @@ const Product = () => {
         {loading && <div>Loading...</div>}
         {error && <div>Error: {error.message}</div>}
         {!loading && !error && filteredProducts.length === 0 && (
-          <div>No products found.</div>
+          <div>no product found</div>
         )}
         {!loading && !error && filteredProducts.length > 0 && (
           <div className="product-list">
